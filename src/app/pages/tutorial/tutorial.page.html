@@ -1,9 +1,32 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>tutorial</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-slides>
+  <ion-slide class="slide-1">
+    <ion-img src="/assets/imgs/slide-1.png"></ion-img>
+    <div class="bottom-box">
+      <h1>Debate the data, concede to the facts</h1>
+      <p>Join a community of individuals who value being open-mindedly skeptical</p>
+      <ion-button (click)="next()">
+        <ion-icon (click)="next()" name="chevron-forward-circle" slot="icon-only"></ion-icon>
+      </ion-button>
+    </div>
+  </ion-slide>
 
-<ion-content>
+  <ion-slide class="slide-2">
+    <ion-img src="/assets/imgs/slide-2.png"></ion-img>
+    <div class="bottom-box">
+      <h1>Remember the human</h1>
+      <p>Create a safe space for news-related discourse</p>
+      <ion-button (click)="next()" shape="round">
+        <ion-icon (click)="next()" name="chevron-forward-circle" slot="icon-only"></ion-icon>
+      </ion-button>
+    </div>
+  </ion-slide>
 
-</ion-content>
+  <ion-slide class="slide-3">
+    <ion-img src="/assets/imgs/slide-3.png"></ion-img>
+    <div class="bottom-box">
+      <h1>Other text</h1>
+      <p>Other other other text</p>
+      <ion-button (click)="finish()">Finish Tutorial</ion-button>
+    </div>
+  </ion-slide>
+</ion-slides>
