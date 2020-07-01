@@ -24,18 +24,20 @@ export class DataService {
     ).pipe(map(res => res['articles']));
   }
 
-  getHealthSources() {
+  getSources() {
     return this.http.get(
-      `${this.url}/sources?category=health&language=en&apiKey=${
+      `${this.url}/sources?category=sports&language=en&apiKey=${
         this.apiKey
       }`
     ).pipe(map(res => res['sources']));
   }
 
   getRandomUser() {
-    return this.http.get(
+    return this.http
+    .get(
       `https://randomuser.me/api?results=20`
-    ).pipe(map(res => res['results']));
+    )
+    .pipe(map(res => res['results']));
   }
 
 }
