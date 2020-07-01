@@ -34,10 +34,12 @@ export class NewsPage implements OnInit {
   }
 
   open(n) {
-    console.log(n);
     let navigationExtras: NavigationExtras = {
-
-    }
+      state: {
+        news: n
+      }
+    };
+    this.router.navigate(['app/news/details'], navigationExtras)
   }
 
 }
