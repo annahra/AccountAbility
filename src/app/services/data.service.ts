@@ -14,7 +14,7 @@ export class DataService {
   totalPosts = null;
   pages: any; 
 
-  constructor(private http: HttpClient) { console.log('api key: ', this.apiKey);}
+  constructor(private http: HttpClient) {}
 
   getTopNews(cat) {
     return this.http.get(
