@@ -14,7 +14,6 @@
 
 .profile-img {
     border-radius: 5px;
-    margin-top: 40px;
 }
 
 .profile-btn {
@@ -40,4 +39,17 @@
 
 hr {
     background: var(--ion-color-medium);
+}
+
+.header-image {
+    background: url('../../../assets/imgs/profile.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+
+.main-content {
+    background-color: white;
+    width: 100vw;
 }

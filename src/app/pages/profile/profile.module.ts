@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { ProfilePageRoutingModule } from './profile-routing.module';
 
 import { ProfilePage } from './profile.page';
+import { SharedDirectivesModule } from 'src/app/directives/shared-directives.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ProfilePageRoutingModule
+    ProfilePageRoutingModule,
+    SharedDirectivesModule
   ],
   declarations: [ProfilePage]
 })
