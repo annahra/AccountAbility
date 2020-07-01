@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePage implements OnInit {
 
-  constructor() { }
+  sources = [];
+
+  constructor(private data: DataService) { }
 
   ngOnInit() {
+    this.data.getHealthSources().subscribe(res => {
+      this.sources = res;
+      console.log('res: ',res);
+    });
   }
 
 }

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import config from '../../../config.js';
+import config from '../../../config.json';
 import { HttpClient } from '@angular/common/http';
 import { map } from "rxjs/operators";
 
@@ -14,7 +14,7 @@ export class DataService {
   totalPosts = null;
   pages: any; 
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) { console.log('api key: ', this.apiKey);}
 
   getTopNews(cat) {
     return this.http.get(
