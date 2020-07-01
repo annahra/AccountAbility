@@ -21,13 +21,17 @@ const routes: Routes = [
         path: 'news',
         loadChildren: () => import('../news/news.module').then(m => m.NewsPageModule)
       },
-      {
-        path: 'profile',
-        loadChildren: () => import('../profile/profile.module').then(m => m.ProfilePageModule)
-      },
+      // {
+      //   path: 'profile',
+      //   loadChildren: () => import('../profile/profile.module').then(m => m.ProfilePageModule)
+      // },
       {
         path: 'news/details',
         loadChildren: () => import('../news-item/news-item.module').then(m => m.NewsItemPageModule)
+      },
+      {
+        path: 'menu',
+        loadChildren: () => import('../menu/menu.module').then(m => m.MenuPageModule)
       }
     ]
   }
