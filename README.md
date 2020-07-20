@@ -4,7 +4,7 @@ AccountAbility is a concept for a social media mobile application where users ar
 
 ## Getting Started
 
-You will need Node.js (at least v), npm (at least v), Angular (at least v), and Ionic (at least version 5) properly running on your machine.
+You will need Node.js (at least v13), npm (at least v6), Angular (at least v9), and Ionic (at least version 5) properly running on your machine.
 
 You will also need to grab a free API Key from [News API](https://newsapi.org/docs), create a config.json file and put the api key in a NEWS_API_KEY variable. 
 
