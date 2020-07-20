@@ -33,6 +33,12 @@ ionic --version
 
 ## Deployment
 
+Once you've download this project, you will need to install of the packages included in the package.json file. To do this, cd into the project directory and run 
+
+```
+npm install
+```
+
 To deploy this application on your localhost, cd into the project directory and run
 
 ```
