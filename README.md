@@ -4,14 +4,31 @@ One Paragraph of project description goes here
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+You will need Node.js (at least v), npm (at least v), Angular (at least v), and Ionic (at least version 5) properly running on your machine.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+If you are running a Windows computer, you will need to install [GitBASH](https://gitforwindows.org) and run all the following commands on GitBASH.
+
+To install Node.js and npm, follow this [link](https://www.npmjs.com/get-npm). Verify you've correctly installed both Node.js and npm by opening GitBASH and running the following commands:
 
 ```
-Give examples
+node --version
+npm --version
+```
+
+To install the [Angular CLI](https://angular.io/guide/setup-local) and to verify that the installation was successful, run the following :
+
+```
+npm install -g @angular/cli
+ng --version
+```
+
+To install the [Ionic CLI](https://ionicframework.com/docs/intro/cli) and to verify that the installation was successful, run the following:
+
+```
+npm -g install -g @ionic/cli
+ionic --version
 ```
 
 ### Installing
