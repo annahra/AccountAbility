@@ -8,8 +8,6 @@ You will need Node.js (at least v), npm (at least v), Angular (at least v), and 
 
 ### Prerequisites
 
-If you are running a Windows computer, you will need to install [GitBASH](https://gitforwindows.org) and run all of the following commands on GitBASH.
-
 To install Node.js and npm, follow this [link](https://www.npmjs.com/get-npm). Verify you've correctly installed both Node.js and npm by opening GitBASH and running the following commands:
 
 ```
@@ -31,25 +29,6 @@ npm -g install -g @ionic/cli
 ionic --version
 ```
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-
 ## Deployment
 
 To deploy this application on your localhost, cd into the project directory and run
@@ -60,7 +39,7 @@ ionic serve
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
+* [Ionic](https://ionicframework.com/docs) - The web framework used
+* [Angular](https://angular.io/docs) - The framework with which Ionic is built upon
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
