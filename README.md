@@ -33,7 +33,7 @@ ionic --version
 
 ## Deployment
 
-Once you've download this project, you will need to install of the packages included in the package.json file. To do this, cd into the project directory and run 
+Once you've download this project, you will need to install all of the packages included in the package.json file. To do this, cd into the project directory and run 
 
 ```
 npm install
