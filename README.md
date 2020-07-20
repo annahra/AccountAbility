@@ -10,7 +10,7 @@ You will also need to grab a free API Key from [News API](https://newsapi.org/do
 
 ### Prerequisites
 
-To install Node.js and npm, follow this [link](https://www.npmjs.com/get-npm). Verify you've correctly installed both Node.js and npm by opening GitBASH and running the following commands:
+To install Node.js and npm, follow this [link](https://www.npmjs.com/get-npm). Verify you've correctly installed both Node.js and npm by running the following commands:
 
 ```
 node --version
