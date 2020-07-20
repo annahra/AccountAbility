@@ -8,7 +8,7 @@ You will need Node.js (at least v), npm (at least v), Angular (at least v), and 
 
 ### Prerequisites
 
-If you are running a Windows computer, you will need to install [GitBASH](https://gitforwindows.org) and run all the following commands on GitBASH.
+If you are running a Windows computer, you will need to install [GitBASH](https://gitforwindows.org) and run all of the following commands on GitBASH.
 
 To install Node.js and npm, follow this [link](https://www.npmjs.com/get-npm). Verify you've correctly installed both Node.js and npm by opening GitBASH and running the following commands:
 
@@ -49,29 +49,14 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+To deploy this application on your localhost, cd into the project directory and run
+
+```
+ionic serve
+```
 
 ## Built With
 
