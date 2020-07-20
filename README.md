@@ -1,10 +1,12 @@
 # AccountAbility
 
-One Paragraph of project description goes here
+AccountAbility is a concept for a social media mobile application where users are dedicated to fact-checking news claims/sources and general media. The first tab of the app allows users to sort media by different categories, the second tab allows the user to read different news articles and comment on them, and the third tab shows a user's profile which allows other users to comment on the user's method of claim evaluation.
 
 ## Getting Started
 
 You will need Node.js (at least v), npm (at least v), Angular (at least v), and Ionic (at least version 5) properly running on your machine.
+
+You will also need to grab a free API Key from [News API](https://newsapi.org/docs), create a config.json file and put the api key in a NEWS_API_KEY variable. 
 
 ### Prerequisites
 
@@ -41,5 +43,6 @@ ionic serve
 
 * [Ionic](https://ionicframework.com/docs) - The web framework used
 * [Angular](https://angular.io/docs) - The framework with which Ionic is built upon
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [News API](https://newsapi.org/docs) - Used to generate news articles
+* [Random User API](https://randomuser.me) - Used to generate random users for show
 
